@@ -48,6 +48,7 @@ main {
     margin: 10px 0;
     display: inline-block;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 
@@ -84,4 +85,18 @@ main {
     left: 5px;
     padding: 5px;
     background-color: rgba(206, 206, 206, 0.3);    
+}
+
+/* FOOTER */
+
+.footer-nav {
+    min-height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-nav.flex div {
+    padding: 5px;
+    background-color: darkblue;
+    margin: 0 5px;
 }
