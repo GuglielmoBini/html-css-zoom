@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-    max-width: 1600px;
+    max-width: 1800px;
     margin: 0 auto;
 }
 
@@ -37,7 +37,7 @@ footer {
 main {
     height: calc(100vh - 160px);
     overflow-y: auto;
-    background-color: white;
+    background-color: black;
 }
 
 /* HEADER */
@@ -59,15 +59,20 @@ main {
 /* MAIN */
 
 .row {
-    margin-top: 20px;
+    margin: 20px 0;
     flex-wrap: wrap;
+    justify-content: center;
+
 }
 
 .card {
-    min-height: 150px;
-    flex-basis: calc(100% / 7);
-    border: 1px dashed black;
-    padding: 10px 5px;
-    background-color: #4A4A4A;
+    height: 200px;
+    flex-basis: 300px;
     
+}
+
+.card img {
+    width: 100%;
+    max-height: 100%;
+    padding: 10px 5px;
 }
