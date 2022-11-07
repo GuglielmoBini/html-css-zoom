@@ -5,3 +5,69 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* GENERICS */
+
+body {
+    font-family: sans-serif;
+    color: white;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+header, footer {
+    height: 80px;
+}
+
+header {
+background-color: black;
+}
+
+footer {
+    background-color: #222222;
+}
+
+main {
+    height: calc(100vh - 160px);
+    overflow-y: auto;
+    background-color: white;
+}
+
+/* HEADER */
+
+.navbar span {
+    padding: 5px;
+    background-color: #4A4A4A;
+    margin: 10px 0;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+
+.navbar {
+    text-align: end;
+    padding: 0 10px;
+}
+
+/* MAIN */
+
+.row {
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    min-height: 150px;
+    flex-basis: calc(100% / 7);
+    border: 1px dashed black;
+    padding: 10px 5px;
+    background-color: #4A4A4A;
+    
+}
